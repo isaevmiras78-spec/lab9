@@ -1,6 +1,4 @@
-/* ==========================================================================
-   1. CSS Custom Properties & Reset (Design System)
-   ========================================================================== */
+
 :root {
     --bg-color: #0d0d0d;
     --card-bg: #141414;
@@ -41,12 +39,10 @@ body {
     color: var(--text-primary);
     font-family: var(--font-family);
     line-height: 1.5;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-x: hidden;
 }
 
-/* ==========================================================================
-   2. Header & Navigation (Responsive Flexbox)
-   ========================================================================== */
+
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -99,9 +95,7 @@ body {
     display: none;
 }
 
-/* ==========================================================================
-   3. Hero Section
-   ========================================================================== */
+
 .hero-section {
     padding: 6rem var(--padding-container) 4rem var(--padding-container);
     border-bottom: 0.0625rem solid var(--border-color);
@@ -141,9 +135,7 @@ body {
     color: var(--bg-color);
 }
 
-/* ==========================================================================
-   4. Projects Grid Section (CSS Grid)
-   ========================================================================== */
+
 .projects-section {
     padding: 3rem var(--padding-container);
 }
@@ -242,9 +234,7 @@ body {
     color: var(--text-secondary);
 }
 
-/* ==========================================================================
-   5. Feedback Form Component (Pure CSS Validation)
-   ========================================================================== */
+
 .feedback-section {
     padding: 5rem var(--padding-container);
     border-top: 0.0625rem solid var(--border-color);
@@ -297,7 +287,7 @@ body {
     transition: border-color 0.3s ease;
 }
 
-/* Pure CSS Validation Styles */
+
 .form-group input:focus {
     border-color: var(--text-primary);
 }
